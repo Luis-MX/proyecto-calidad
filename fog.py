@@ -26,3 +26,5 @@ class IndiceFog:
                         numeroPalabrasComplejas += 1
                 frases.append(linea)
         return 0.4 * (numeroPalabras / len(frases)) + 100 * (numeroPalabrasComplejas / numeroPalabras)
+    
+    
